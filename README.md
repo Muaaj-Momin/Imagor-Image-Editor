@@ -37,3 +37,5 @@ Images are rendered onto an HTML `<canvas>` element. Filters are applied using t
 
 Downloading works by converting the canvas to a data URL via `canvas.toDataURL()` and triggering a link click.
 
+## Live Demo Link - 
+https://muaaj-momin.github.io/Imagor-Image-Editor/
