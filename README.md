@@ -1,6 +1,6 @@
 # Imagor ~ Image Editor
 
-A lightweight, browser-based image editor built with vanilla HTML, CSS, and JavaScript. No frameworks, no dependencies — just the Web APIs.
+A lightweight, browser-based image editor built with vanilla HTML, CSS and JavaScript. No frameworks, no dependencies — just the Web APIs.
 
 ## Features
 
@@ -37,21 +37,3 @@ Images are rendered onto an HTML `<canvas>` element. Filters are applied using t
 
 Downloading works by converting the canvas to a data URL via `canvas.toDataURL()` and triggering a link click.
 
-## Getting Started
-
-No build step or server required. Just open `index.html` in any modern browser.
-
-```bash
-# Clone or download the project, then open:
-open index.html
-```
-
-Or drag `index.html` into your browser.
-
-## Dependencies
-
-- [Remix Icon](https://remixicon.com/) (via CDN) — for the placeholder icon
-
-## Browser Support
-
-Works in any browser that supports the Canvas 2D API and `ctx.filter` — all modern browsers (Chrome, Firefox, Safari, Edge).
